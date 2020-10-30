@@ -71,7 +71,7 @@ void testMatrix() {
 
   std::cerr << "Tests over the finite field passed!\n";
 
-  std::ifstream in("C:\\Users\\vovun\\Documents\\vovoprograms\\vovo programs\\hw\\Matrix_over_any_field\\lib\\include\\matr.txt");
+  std::ifstream in("../matr.txt");
   SquareMatrix<20> bigMatrix;
   for (int i = 0; i < 20; ++i)
     for (int j = 0; j < 20; ++j)
